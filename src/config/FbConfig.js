@@ -1,13 +1,13 @@
 import {initializeApp} from 'firebase/app'
 import {getFirestore} from 'firebase/firestore'
 const firebaseConfig = {
-  apiKey:"AIzaSyDUuccYuIC6OpjDzWIuU4KhgeJLQ8othNY",
-  authDomain:"oyiboonlinemarket.firebaseapp.com",
-  databaseURL:"https://oyiboonlinemarket-default-rtdb.europe-west1.firebasedatabase.app" ,
-  projectId:"oyiboonlinemarket",
-  storageBucket:"oyiboonlinemarket.appspot.com",
-  messagingSenderId: "1066111715055",
-  appId:"1:1066111715055:web:6742f91dbb0f319ef93d1a"
+  apiKey:process.env.REACT_APP_FIREBASE_KEY,
+  authDomain:process.env.REACT_APP_ATH_DOMAIN,
+  databaseURL:process.env.REACT_APP_DATABASEURL ,
+  projectId:process.env.REACT_APP_PROJECTID,
+  storageBucket:process.env.REACT_APP_STORAGEBUCKET,
+  messagingSenderId:process.env.REACT_APP_MESSAGINGSENDERID,
+  appId:process.env.REACT_APP_APPID
 };
 
 // Initialize Firebase

@@ -12,10 +12,12 @@ function App() {
 	
 	
  const location= useLocation();
+	
+
 	  
     return (
   
-		<Layout location ={location}>
+		<Layout location ={location} >
 			<Switch>
 				<Route path ='/' exact>
 				<HomePage/>

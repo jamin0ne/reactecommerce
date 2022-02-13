@@ -13,7 +13,20 @@ function CartListingStructure(props){
 		  })
 	}
 	function RemoveItemFromCart(){
-		props.RemoveItemFromCart(props.Product.Id)
+		
+		props.RemoveItemFromCart(props.Product.id)
+		
+	}
+	function reduceItemAmountInCart(){
+		if(props.Product.purchaseAmount > 1){
+			props.AddItemToCart({
+			  id: props.Product.id,
+			  title:props.Product.title,
+			  image: props.Product.image,
+			  purchaseAmount: -1,
+			  price: props.Product.price 
+		  })
+		}else{ props.RemoveItemFromCart(props.Product.id) }
 	}
 	return(
 		
@@ -31,7 +44,7 @@ function CartListingStructure(props){
 		 <div>  <span style={{fontWeight: "bold"}} >Price: </span>{props.Product.totalPrice}</div>
 		  
 		   <div> <Button.Group size='small'>
-    <Button onClick={RemoveItemFromCart} >-</Button>
+    <Button onClick={reduceItemAmountInCart} >-</Button>
     <Button.Or  text = {props.Product.purchaseAmount}/>
     <Button onClick={AddItemToCart} >+</Button>
 		  </Button.Group>

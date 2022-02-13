@@ -6,7 +6,7 @@ import  CartItemContext from '../../contextFolder/cartContextProvider'
 function productlistingStructure(props){
 	 const ContextinCartItem = useContext(CartItemContext);
 	const [purchaseAmount,setpurchaseAmount] = useState(1);
-	 
+
 	function addItemHandler(){
 		ContextinCartItem.AddItemToCart({
 			  id: props.id,

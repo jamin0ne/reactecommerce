@@ -9,8 +9,14 @@ const CartItemContext = createContext({
 })
 
 export function CartContextProvider(props){
+	var locStorage = JSON.parse(localStorage.getItem('cartList'));
+	function firstitemcarthandler(){
+		if(locStorage === undefined){
+			return []}
+		else {return locStorage}
+	}
 	
-	const [cartItemArray,setCartItem] = useState([]);
+	const [cartItemArray,setCartItem] = useState(firstitemcarthandler());
 	const Context ={
 			 CartItems: cartItemArray,
 	TotalNumberOfCartitem:cartItemArray.length,
@@ -18,7 +24,7 @@ export function CartContextProvider(props){
 	RemoveItemFromCart: RemoveItemFromCartHandler,
 	IsItemInCart: IsItemInCartHandler
 	}
-	function AddItemToCartHandler(Item){
+	async function AddItemToCartHandler(Item){
 		const [isIteminCartBool,isIteminCartIndex]= IsItemInCartHandler(Item.id)
 		var newArray=  cartItemArray
 		var newPurchaseAmount = 0 
@@ -41,11 +47,17 @@ export function CartContextProvider(props){
 				 purchaseAmount:newPurchaseAmount,
 				 totalPrice: newTotalPrice
 			 }
-		  setCartItem((prv)=>{ return [].concat(newArray)})
-	}
-	function RemoveItemFromCartHandler() {
 		
+		   await setCartItem((prv)=>{ return [].concat(newArray)})
+		localStorage.setItem("cartList",JSON.stringify(cartItemArray))
 	}
+
+	async function RemoveItemFromCartHandler(ItemId) {
+	      const newArray = cartItemArray.filter( (items)=>{ return items.id !== ItemId})
+		 await setCartItem(newArray)
+		 localStorage.setItem("cartList", JSON.stringify(newArray))
+	}
+	
 	
 	function IsItemInCartHandler(ItemId){
 		     const isIteminCartBool  = cartItemArray.some((items)=>{ return items.id === ItemId })
