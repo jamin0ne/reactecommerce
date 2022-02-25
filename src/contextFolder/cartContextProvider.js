@@ -9,7 +9,7 @@ const CartItemContext = createContext({
 })
 
 export function CartContextProvider(props){
-	var locStorage = JSON.parse(localStorage.getItem('cartList'));
+	//var locStorage = JSON.parse(localStorage.getItem('cartList'));
 	
 	
 	const [cartItemArray,setCartItem] = useState([]);

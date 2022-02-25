@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Form, Segment, Input } from "semantic-ui-react";
 
-function CartCheckoutForm(props) {
+function AddingItem() {
   return (
     <Segment inverted>
       <Form inverted>
@@ -15,17 +15,12 @@ function CartCheckoutForm(props) {
           label="Email"
           placeholder="abcd@example.com"
         />
-        <Form.Input
-          fluid
-          label="Phone"
-          type="number"
-          placeholder="000-000-0000"
-        />
+        <Form.Input fluid label="Phone" placeholder="000-000-0000" />
         <Form.Input fluid label="Address" placeholder="Address" />
 
-        <Button disabled ={props.CartItemContext.TotalNumberOfCartitem === 0 ? true : false} type="submit">Place Order</Button>
+        <Button type="submit">Submit</Button>
       </Form>
     </Segment>
   );
 }
-export default CartCheckoutForm;
+export default AddingItem;

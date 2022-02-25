@@ -17,8 +17,8 @@ export default function NavigationBar (props) {
     return (
       <div>
 			
-        <Menu pointing secondary  widths ={8}>
-			<Menu.Header as ='h2' >Oyibo Market</Menu.Header>
+        <Menu pointing secondary  widths ={5}>
+			<Menu.Header as ='h2' >Market</Menu.Header>
           <Menu.Item as={Link} to = '/'
             name='Home'
             active={activeItem === '/'}
@@ -29,7 +29,7 @@ export default function NavigationBar (props) {
             active={activeItem ===  '/Productspage'}
             onClick={handleItemClick}
           />
-          <Menu.Item as ={Link} to = '/Aboutuspage'
+          <Menu.Item as ={Link} to ='/Aboutuspage'
             name='About Us'
             active={activeItem ===  '/Aboutuspage'}
             onClick={handleItemClick}

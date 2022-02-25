@@ -10,7 +10,7 @@ export default function HomePage(){
     height: "100vh"}}> <Segment placeholder >
 				 <Header as ='h2' icon textAlign ='center'>
 				 <Icon name='shopping basket' circular  />
-				 <Header.Content>Welcome to Oyibo online market</Header.Content>
+				 <Header.Content>Welcome to market</Header.Content>
 				 </Header>
 					 </Segment>
 				 

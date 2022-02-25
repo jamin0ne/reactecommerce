@@ -41,7 +41,7 @@ function CartListingStructure(props){
       <Image size='mini' src={props.Product.image} />
       <List.Content>
 		  <Header>{props.Product.title}</Header>
-		 <div>  <span style={{fontWeight: "bold"}} >Price: </span>{props.Product.totalPrice}</div>
+		 <div>  <span style={{fontWeight: "bold"}} >Price: </span>лв.{props.Product.totalPrice}</div>
 		  
 		   <div> <Button.Group size='small'>
     <Button onClick={reduceItemAmountInCart} >-</Button>
