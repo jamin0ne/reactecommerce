@@ -1,6 +1,7 @@
 import React, { useState,useContext } from "react";
-import { Button, Grid, Segment } from "semantic-ui-react";
+import { Grid } from "semantic-ui-react";
 import CartListing from "../components/cartComponent/cartListing";
+import CartSubtotal from "../components/cartComponent/subCartComponent/cartSubtotal";
 import ContextProviderForCartPage from "../contextFolder/cartContextProvider";
 import CartCheckoutForm from "../components/cartComponent/CartCheckoutForm";
 function CartPage() {
@@ -23,15 +24,7 @@ function CartPage() {
           <CartListing CartItemContext={CartItemContext} />
         </Grid.Column>
         <Grid.Column>
-          <Segment>
-             <h3>CHECKOUT</h3>
-			   <Segment>
-                <div><text style={{fontWeight:'bold'}}>subtotal: </text>лв.{SubtotalCalculation()} </div>
-              </Segment>
-              <Button primary disabled ={CartItemContext.TotalNumberOfCartitem === 0 ? true : false} onClick={CheckOutHandler}>
-                Check-out
-              </Button>
-			  </Segment>
+          <CartSubtotal CartItemContext={CartItemContext} SubtotalCalculation={SubtotalCalculation} CheckOutHandler={CheckOutHandler}  />
         </Grid.Column>
       </Grid.Row>
       <Grid.Row centered columns={2}>

@@ -3,22 +3,33 @@ import React,{createContext, useState} from 'react'
 const CartItemContext = createContext({
 	 CartItems: [],
 	TotalNumberOfCartitem: '',
+     alert: '',
+	MessageHandler: function alertActionHandler(){},
 	AddItemToCart: function AddItemToCartHandler(){ },
 	RemoveItemFromCart:function RemoveItemFromCartHandler(){ },
 	IsItemInCart:function IsItemInCartHandler(){}
 })
 
 export function CartContextProvider(props){
-	//var locStorage = JSON.parse(localStorage.getItem('cartList'));
-	
 	
 	const [cartItemArray,setCartItem] = useState([]);
+	const [AlertMessage,setAlertMessage] = useState('');
 	const Context ={
 			 CartItems: cartItemArray,
 	TotalNumberOfCartitem:cartItemArray.length,
+	alert: AlertMessage,
+	MessageHandler: alertActionHandler,
 	AddItemToCart: AddItemToCartHandler,
 	RemoveItemFromCart: RemoveItemFromCartHandler,
 	IsItemInCart: IsItemInCartHandler
+	}
+
+	 function alertActionHandler(Message){
+		setAlertMessage(Message)
+     setTimeout(() => {
+		setAlertMessage('')
+	 }, 3000) 
+	
 	}
 	async function AddItemToCartHandler(Item){
 		const [isIteminCartBool,isIteminCartIndex]= IsItemInCartHandler(Item.id)
@@ -45,13 +56,13 @@ export function CartContextProvider(props){
 			 }
 		
 		   await setCartItem((prv)=>{ return [].concat(newArray)})
-		localStorage.setItem("cartList",JSON.stringify(cartItemArray))
+		
 	}
 
 	async function RemoveItemFromCartHandler(ItemId) {
 	      const newArray = cartItemArray.filter( (items)=>{ return items.id !== ItemId})
 		 await setCartItem(newArray)
-		 localStorage.setItem("cartList", JSON.stringify(newArray))
+		 alertActionHandler("Removed from cart")
 	}
 	
 	

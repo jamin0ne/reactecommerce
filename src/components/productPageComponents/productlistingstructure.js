@@ -15,7 +15,7 @@ function productlistingStructure(props){
 			  purchaseAmount: purchaseAmount,
 			  price: props.price 
 		  })
-	
+	ContextinCartItem.MessageHandler('Added to cart')
 	}
 	function purchaseAmountHandler(event,buttonInfo){
 	       const buttonString = buttonInfo.children

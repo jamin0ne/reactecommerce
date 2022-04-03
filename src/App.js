@@ -5,6 +5,8 @@ import AboutUsPage from "./pages/AboutUsPage";
 import ProductPage from "./pages/ProductPage";
 import CartPage from "./pages/cartPage";
 import AddingItem from "./pages/AddingItem";
+import SuccessPage from "./pages/SuccessfulPage";
+import Errorpage from "./pages/Errorpage";
 import Layout from "./components/layout/layout";
 
 import "./App.css";
@@ -29,6 +31,12 @@ function App() {
         </Route>
         <Route path="/AddingItem">
           <AddingItem />
+        </Route>
+        <Route path="/SuccessPage">
+          <SuccessPage />
+        </Route>
+        <Route path="/errorpage">
+          <Errorpage />
         </Route>
       </Switch>
     </Layout>
