@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { Button, Form, Segment, Input,Ref } from "semantic-ui-react";
 import { collection, addDoc } from "firebase/firestore"; 
-import db from '../../config/FbConfig'
+import {Db} from '../../config/FbConfig'
 
 function CartCheckoutForm(props) {
   const FristNameRef = useRef();
@@ -21,14 +21,14 @@ function CartCheckoutForm(props) {
           itemsPurchased: props.CartItemContext.CartItems
  }
  
-await addDoc(collection(db, "CustomerAndPurchases"), formInputs).then(Response=>(window.location.replace("./SuccessPage"))).catch(error=>window.location.replace("./errorpage"))
+await addDoc(collection(Db, "CustomerAndPurchases"), formInputs).then(Response=>(window.location.replace("./SuccessPage"))).catch(error=>window.location.replace("./errorpage"))
 
 
  }
 
   return (
-    <Segment inverted>
-      <Form inverted onSubmit={submithandler}>
+    <Segment >
+      <Form color="gray"  onSubmit={submithandler}>
         <Form.Group widths="equal">
         <Ref innerRef={FristNameRef}><Form.Input fluid label="First name" placeholder="First name"  required /></Ref>
         <Ref innerRef={LastNameRef}><Form.Input fluid label="Last name" placeholder="Last name" required /></Ref>
@@ -49,7 +49,7 @@ await addDoc(collection(db, "CustomerAndPurchases"), formInputs).then(Response=>
         /></Ref>
         <Ref innerRef={AddressRef}><Form.Input fluid label="Address" placeholder="Address" required /></Ref>
 
-        <Button disabled ={props.CartItemContext.TotalNumberOfCartitem === 0 ? true : false} >Place Order</Button>
+        <Button color="teal" disabled ={props.CartItemContext.TotalNumberOfCartitem === 0 ? true : false} >Place Order</Button>
       </Form>
       
     </Segment>

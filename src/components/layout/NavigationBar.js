@@ -17,7 +17,7 @@ export default function NavigationBar (props) {
     return (
       <div>
 			
-        <Menu pointing secondary  widths ={5}>
+        <Menu fixed="top"  pointing   widths ={5}>
 			<Menu.Header as ='h2' >Market</Menu.Header>
           <Menu.Item as={Link} to = '/'
             name='Home'

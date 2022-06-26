@@ -7,8 +7,9 @@ export default function Layout(props){
 	return(
 	  <div>
 			<NavigationBar location={props.location} />
+			
+			<div style={{paddingTop:"50px" }}>
 			<Messageoutput/>
-			<div>
 				{props.children}
 			</div>
 			

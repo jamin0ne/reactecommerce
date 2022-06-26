@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react';
 import{Header} from 'semantic-ui-react';
 import { collection, getDocs } from "firebase/firestore"; 
 import ProductListing from '../components/productPageComponents/ProductListing';
-import db from '../config/FbConfig'
+import {Db} from '../config/FbConfig'
   	
 
  export default function ProductPage(props){
@@ -11,7 +11,7 @@ import db from '../config/FbConfig'
 	   
 	   const  getProductData = async()=>{
 		     const DataArrangeMentArray = []
-		const getproduct = await getDocs(collection(db, "Products"));
+		const getproduct = await getDocs(collection(Db, "Products"));
 		   getproduct.forEach(product=>{
 			     DataArrangeMentArray.push({
 					   id: product.id,

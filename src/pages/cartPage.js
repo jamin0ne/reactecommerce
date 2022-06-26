@@ -6,9 +6,9 @@ import ContextProviderForCartPage from "../contextFolder/cartContextProvider";
 import CartCheckoutForm from "../components/cartComponent/CartCheckoutForm";
 function CartPage() {
 	const CartItemContext = useContext(ContextProviderForCartPage);
-  const [showCheckoutForm, setShowCheckoutForm] = useState(true);
+  const [HiddenCartForm, setHiddenCartForm] = useState(true);
   function CheckOutHandler() {
-    setShowCheckoutForm(false);
+    setHiddenCartForm(false);
   }
   function SubtotalCalculation(){
 	var subtotal = 0;
@@ -18,7 +18,8 @@ function CartPage() {
   }
 
   return (
-    <Grid padded divided>
+    <div>
+    <Grid padded divided  >
       <Grid.Row centered columns={2}>
         <Grid.Column>
           <CartListing CartItemContext={CartItemContext} />
@@ -27,14 +28,11 @@ function CartPage() {
           <CartSubtotal CartItemContext={CartItemContext} SubtotalCalculation={SubtotalCalculation} CheckOutHandler={CheckOutHandler}  />
         </Grid.Column>
       </Grid.Row>
-      <Grid.Row centered columns={2}>
-        <Grid.Column>
-          <div hidden={showCheckoutForm}>
-            <CartCheckoutForm CartItemContext={CartItemContext} />
-          </div>
-        </Grid.Column>
-      </Grid.Row>
     </Grid>
+     <div style={{padding:"50px"}} hidden={HiddenCartForm}>
+     <CartCheckoutForm CartItemContext={CartItemContext} />
+   </div>
+   </div>
   );
 }
 export default CartPage;

@@ -9,7 +9,7 @@ function SuccessPage(){
     Your order has been placed
         </Header>
        
-        <Button primary>HomePage</Button>
+        <Button primary href="./">HomePage</Button>
       </Segment>)
 }
 export default SuccessPage;
