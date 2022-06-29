@@ -17,7 +17,7 @@ export default function AboutUsPage() {
       </p>
       <div>
         To see list of our products
-        <Button as={Link} to="/Productspage" color="teal">
+        <Button as={Link} to="/Productspage" color="blue">
           Click Me
         </Button>
       </div>
