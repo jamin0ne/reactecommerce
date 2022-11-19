@@ -7,6 +7,7 @@ function SuccessPage(){
         <Header icon>
           <Icon name='checkmark' />
     Your order has been placed
+    <p>Check your "mailbox" or "junk" to see your order</p>
         </Header>
        
         <Button primary href="./">HomePage</Button>

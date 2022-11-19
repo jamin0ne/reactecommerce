@@ -3,6 +3,7 @@ import { Button, Form, Segment, Input,Ref } from "semantic-ui-react";
 import { collection, addDoc } from "firebase/firestore"; 
 import {Db} from '../../config/FbConfig'
 
+
 function CartCheckoutForm(props) {
   const FristNameRef = useRef();
   const LastNameRef = useRef();
@@ -20,12 +21,23 @@ function CartCheckoutForm(props) {
           Address: AddressRef.current.lastChild.lastChild.value,
           itemsPurchased: props.CartItemContext.CartItems
  }
- 
-await addDoc(collection(Db, "CustomerAndPurchases"), formInputs).then(Response=>(window.location.replace("./SuccessPage"))).catch(error=>window.location.replace("./errorpage"))
-
-
+ console.log(formInputs.itemsPurchased)
+await addDoc(collection(Db, "CustomerAndPurchases"), formInputs).then(Response=>(SendEmail(formInputs.FristName,formInputs.Email,formInputs.itemsPurchased))).catch(error=>window.location.replace("./errorpage"))
  }
-
+// send email function
+function SendEmail(name,email,itemsPurchased){
+  if(window.Email){
+  window.Email.send({
+    Host:window.process.env.REACT_APP_HOST,
+    Username:window.process.env.REACT_APP_USERNAME,
+    Password:window.process.env.REACT_APP_PASSWORD,
+    To: email,
+    From:window.process.env.REACT_APP_FROMEMAIL,
+    Subject:"New Purchase",
+    Body:`Hello ${name} <br> Your order has been processed successfully. Here is a list of things you order: ${itemsPurchased.map((Product) => (Product.title+" * "+Product.purchaseAmount))}
+    for a total of ${props.SubtotalCalculation()}лв + a 3лв delivery fee. <br> Thank you for shopping with us. <br> Best regards,<br> oyinbo.com`
+  }).then(Response=>( window.location.replace("./SuccessPage")))}
+}
   return (
     <Segment >
       <Form color="gray"  onSubmit={submithandler}>

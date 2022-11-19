@@ -6,14 +6,14 @@ export default function AboutUsPage() {
     <div>
       <h2>About us</h2>
       <p>
-        We are steady supplier of Afro carabbiean food items and spices. We are
-        based in sofia, bulgaria our working hours are form monday - saturday
-        10:00 - 17:00. We deleiver to all over bulgaria but delivery to time
-        differs depending on location, delivery within sofia takes 0-2 business
-        days, delivery outside sofia takes 2-5 business days.for order
-        confrimation, correction or cancellation please send us an email at
+      We are steady a supplier of Afro Caribbean food items and spices. We are
+        based in Sofia, Bulgaria. Our working hours are form Monday - Saturday
+        10:00 - 17:00. We deliver to all over Bulgaria but delivery to time
+        differs depending on location, delivery within Sofia takes 0-2 business
+        days, delivery outside Sofia takes 2-5 business days. For order
+        confirmation, correction or cancellation please send us an email at
         *****@example.com with the name on the order and the order reference
-        number and it will be updated accordingly
+        number and it will be updated accordingly.
       </p>
       <div>
         To see list of our products

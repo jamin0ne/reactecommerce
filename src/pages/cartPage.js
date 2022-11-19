@@ -30,7 +30,7 @@ function CartPage() {
       </Grid.Row>
     </Grid>
      <div style={{padding:"50px"}} hidden={HiddenCartForm}>
-     <CartCheckoutForm CartItemContext={CartItemContext} />
+     <CartCheckoutForm CartItemContext={CartItemContext} SubtotalCalculation={SubtotalCalculation} />
    </div>
    </div>
   );
