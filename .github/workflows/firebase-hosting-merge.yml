@@ -15,7 +15,6 @@ jobs:
       - run: npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
-          repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_OYIBOONLINEMARKET }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_HOSTING_KEY }}'
           channelId: live
           projectId: oyiboonlinemarket
