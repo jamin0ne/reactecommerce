@@ -10,7 +10,8 @@ function CartCheckoutForm(props) {
   const EmailRef = useRef();
   const PhoneRef = useRef();
   const AddressRef = useRef();
-
+ 
+ 
   async function submithandler(e){
    e.preventDefault()
     const formInputs= {
@@ -21,6 +22,7 @@ function CartCheckoutForm(props) {
           Address: AddressRef.current.lastChild.lastChild.value,
           itemsPurchased: props.CartItemContext.CartItems
  }
+ SendToOwner(formInputs)
 await addDoc(collection(Db, "CustomerAndPurchases"), formInputs).then(Response=>(SendEmail(formInputs.FristName,formInputs.Email,formInputs.itemsPurchased))).catch(error=>window.location.replace("./SuccessPage"))
  }
 // send email function
@@ -35,6 +37,19 @@ function SendEmail(name,email,itemsPurchased){
     Subject:"New Purchase",
     Body:`Hello ${name} <br> Your order has been processed successfully. Here is a list of things you order: ${itemsPurchased.map((Product) => (Product.title+" * "+Product.purchaseAmount))}
     for a total of ${props.SubtotalCalculation()}лв + a 3лв delivery fee. <br> Thank you for shopping with us. <br> Best regards,<br> oyinbo.com`
+  }).then(Response=>( window.location.replace("./SuccessPage")))}
+}
+function SendToOwner(formInputs){
+  if(window.Email){
+  window.Email.send({
+    Host:process.env.REACT_APP_HOST,
+    Username:process.env.REACT_APP_USERNAME,
+    Password:process.env.REACT_APP_PASSWORD,
+    To:process.env.REACT_APP_FROMEMAIL,
+    From:process.env.REACT_APP_FROMEMAIL,
+    Subject:"New Purchase",
+    Body:`Hello,<br> New purchase from ${formInputs.FristName} of ${formInputs.itemsPurchased.map((Product) => (Product.title+" * "+Product.purchaseAmount))}
+    for a total of ${props.SubtotalCalculation()}лв + a 3лв delivery fee. Email address ${formInputs.Email} and phone number ${formInputs.Phone}`
   }).then(Response=>( window.location.replace("./SuccessPage")))}
 }
   return (

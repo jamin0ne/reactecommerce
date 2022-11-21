@@ -1,5 +1,5 @@
 import React, { useRef,useState,useContext } from "react";
-import { Grid } from "semantic-ui-react";
+import { Grid,Ref} from "semantic-ui-react";
 import CartListing from "../components/cartComponent/cartListing";
 import CartSubtotal from "../components/cartComponent/subCartComponent/cartSubtotal";
 import ContextProviderForCartPage from "../contextFolder/cartContextProvider";
@@ -10,7 +10,7 @@ function CartPage() {
   const ScrollToForm = useRef(null);
   function CheckOutHandler() {
     setHiddenCartForm(false);
-    ScrollToForm.current?.scrollIntoView({behavior: 'smooth'});
+    ScrollToForm.current.scrollIntoView({behavior: 'smooth'});
   }
   function SubtotalCalculation(){
 	var subtotal = 0;
@@ -31,9 +31,9 @@ function CartPage() {
         </Grid.Column>
       </Grid.Row>
     </Grid>
-     <div style={{padding:"50px"}} hidden={HiddenCartForm} ref={ScrollToForm}>
+    <Ref innerRef={ScrollToForm}><div style={{padding:"50px"}} hidden={HiddenCartForm} >
      <CartCheckoutForm CartItemContext={CartItemContext} SubtotalCalculation={SubtotalCalculation} />
-   </div>
+   </div></Ref>
    </div>
   );
 }
