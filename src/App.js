@@ -1,13 +1,13 @@
 import React from "react";
 import { Route, Switch, useLocation } from "react-router-dom";
-import HomePage from "./pages/HomePage";
-import AboutUsPage from "./pages/AboutUsPage";
-import ProductPage from "./pages/ProductPage";
-import CartPage from "./pages/cartPage";
-import AddingItem from "./pages/AddingItem";
-import SuccessPage from "./pages/SuccessfulPage";
-import Errorpage from "./pages/Errorpage";
-import Layout from "./components/layout/layout";
+import HomePage from "./Home/HomePage";
+import AboutUsPage from "./ContactUs/AboutUsPage";
+import ProductPage from "./Products/ProductPage"
+import CartPage from "./Cart/cartPage";
+import AddingItem from "./Others/AddingItem";
+import SuccessPage from "./Others/SuccessfulPage";
+import Errorpage from "./Others/Errorpage";
+import Layout from "./UiLayout/layout";
 
 import "./App.css";
 

@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { Button, Form, Segment, Input,Ref } from "semantic-ui-react";
 import { collection, addDoc } from "firebase/firestore"; 
-import {Db} from '../../config/FbConfig'
+import {Db} from '../../settingsAndConfig/DBconfig/FbConfig'
 
 
 function CartCheckoutForm(props) {

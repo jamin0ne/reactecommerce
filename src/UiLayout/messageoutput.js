@@ -1,5 +1,5 @@
 import React, {useContext} from "react";
-import  CartItemContext from "../../contextFolder/cartContextProvider"
+import  CartItemContext from "../settingsAndConfig/contextsHandler/cartContextProvider"
 
 function messageoutput(props) {
     const ContextinCartItem = useContext(CartItemContext);

@@ -4,7 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import "./index.css";
 import "semantic-ui-css/semantic.min.css";
 import App from "./App";
-import { CartContextProvider } from "./contextFolder/cartContextProvider";
+import { CartContextProvider } from "./settingsAndConfig/contextsHandler/cartContextProvider";
 
 ReactDOM.render(
   <CartContextProvider>

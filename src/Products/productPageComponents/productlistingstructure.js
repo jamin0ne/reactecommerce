@@ -1,6 +1,6 @@
 import React,{useState, useContext} from 'react'
 import {Card,Image,Button,Grid} from 'semantic-ui-react'
-import  CartItemContext from '../../contextFolder/cartContextProvider'
+import  CartItemContext from '../../settingsAndConfig/contextsHandler/cartContextProvider'
 
 
 function productlistingStructure(props){

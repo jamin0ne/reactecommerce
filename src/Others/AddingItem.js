@@ -2,7 +2,7 @@ import React,{useRef, useState} from "react";
 import { Button, Form, Segment, Ref } from "semantic-ui-react";
 import { getStorage, ref, uploadBytes, getDownloadURL  } from "firebase/storage";
 import { collection, addDoc } from "firebase/firestore";
-import {Db} from '../config/FbConfig';
+import {Db} from '../settingsAndConfig/DBconfig/FbConfig';
 
 
 function AddingItem() {

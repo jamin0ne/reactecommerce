@@ -1,9 +1,9 @@
 import React, { useRef,useState,useContext } from "react";
 import { Grid,Ref} from "semantic-ui-react";
-import CartListing from "../components/cartComponent/cartListing";
-import CartSubtotal from "../components/cartComponent/subCartComponent/cartSubtotal";
-import ContextProviderForCartPage from "../contextFolder/cartContextProvider";
-import CartCheckoutForm from "../components/cartComponent/CartCheckoutForm";
+import CartListing from "./cartComponent/cartListing";
+import CartSubtotal from "./cartComponent/subCartComponent/cartSubtotal";
+import ContextProviderForCartPage from "../settingsAndConfig/contextsHandler/cartContextProvider";
+import CartCheckoutForm from "./cartComponent/CartCheckoutForm";
 function CartPage() {
 	const CartItemContext = useContext(ContextProviderForCartPage);
   const [HiddenCartForm, setHiddenCartForm] = useState(true);
