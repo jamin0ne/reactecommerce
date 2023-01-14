@@ -8,7 +8,6 @@ import AddingItem from "./Others/AddingItem";
 import SuccessPage from "./Others/SuccessfulPage";
 import Errorpage from "./Others/Errorpage";
 import Layout from "./UiLayout/layout";
-
 import "./App.css";
 
 function App() {

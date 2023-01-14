@@ -1,47 +1,34 @@
-import React, {useState,useEffect} from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
-import {Menu,Icon} from 'semantic-ui-react'
+
 
 
 
 export default function NavigationBar (props) {
- const Pathlocation = props.location.pathname
- 
-      const [activeItem,setactiveItem] = useState('')
- function handleItemClick (e, ButtonInfo) { setactiveItem(Pathlocation) 
-	 								  }
-
- useEffect(()=>{setactiveItem(Pathlocation) })
-
 
     return (
-      <div>
-			
-        <Menu fixed="top"  pointing   widths ={5}>
-			<Menu.Header as ='h2' >Market</Menu.Header>
-          <Menu.Item as={Link} to = '/'
-            name='Home'
-            active={activeItem === '/'}
-            onClick={handleItemClick}
-          />
-          <Menu.Item as = {Link} to = '/Productspage'
-            name='Products'
-            active={activeItem ===  '/Productspage'}
-            onClick={handleItemClick}
-          />
-          <Menu.Item as ={Link} to ='/Aboutuspage'
-            name='About Us'
-            active={activeItem ===  '/Aboutuspage'}
-            onClick={handleItemClick}
-          />
-			<Menu.Menu position='right'>
-            <Menu.Item name= 'shopping cart'as={Link} to= '/CartPage' onClick={handleItemClick}>
-				<Icon name ='shopping cart' /> Cart</Menu.Item>
-          </Menu.Menu>
-          
-        </Menu>
-
-      </div>
+              <div class="landing-header">
+            <div class="landing-name">
+            <Link to = '/'><span class="landing-text"><span>OYIBO MARKET</span></span></Link>
+            </div>
+            <div class="landing-frame14">
+              <div class="landing-frame3">
+                <div class="landing-frame8">
+                <Link to = '/'><span class="landing-text02"><span>Home</span></span></Link>
+                </div>
+                <Link to = '/Productspage'><span class="landing-text04 GRH6"><span>Products</span></span></Link>
+                <Link to ='/Aboutuspage'><span class="landing-text06 GRH6"><span>Contact Us</span></span></Link>
+              </div>
+              <div class="landing-frame4">
+                <img
+                  alt="shoppingcartI493"
+                  src="public/playground_assets/shoppingcarti493-k2828.svg"
+                  class="landing-shoppingcart"
+                />
+                <Link to= '/CartPage'><span class="landing-text08 GRH6"><span>Cart</span></span></Link>
+              </div>
+            </div>
+          </div>
     )
   
 }
