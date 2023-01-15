@@ -46,7 +46,7 @@ function productlistingStructure(props){
 			  class="marketplace-iconsax-linearaddsquare1"
 			/>
 		  </button>
-		  <button class="marketplace-button03">
+		  <button class="marketplace-button03" onClick={purchaseAmountHandler}>
 			<img
 			  alt="shoppingcartI373"
 			  src="public/playground_assets/shoppingcarti373-uh3w.svg"
