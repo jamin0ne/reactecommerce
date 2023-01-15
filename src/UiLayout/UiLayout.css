@@ -2,7 +2,7 @@
     min-height: 100vh;
   }
   .landing-landing {
-    width: 100%;
+    width: 99%;
     height: 1347px;
     display: flex;
     overflow: hidden;
@@ -15,7 +15,7 @@
   .landing-header {
     top: 0px;
     left: 0px;
-    width: 1440px;
+    width: 99%;
     display: flex;
     padding: 0 70px;
     overflow: hidden;
@@ -135,7 +135,7 @@
   .landing-image6 {
     top: 58px;
     left: 0px;
-    width: 1440px;
+    width: 99%;
     height: 472px;
     position: absolute;
     border-color: transparent;
@@ -143,7 +143,7 @@
   .landing-frame7 {
     top: 142px;
     left: 160px;
-    width: 674px;
+    width: 60%;
     display: flex;
     position: absolute;
     align-items: flex-start;
@@ -230,7 +230,7 @@
   }
   .landing-africamapsvgrepocom4 {
     top: 132px;
-    left: 910px;
+    left: 70%;
     width: 350px;
     height: 350px;
     position: absolute;
@@ -238,7 +238,7 @@
   .landing-frame18 {
     top: 530px;
     left: 0px;
-    width: 1440px;
+    width: 99%;
     height: 817px;
     display: flex;
     position: absolute;

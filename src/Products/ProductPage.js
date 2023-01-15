@@ -22,7 +22,12 @@ import {Db} from '../settingsAndConfig/DBconfig/FbConfig'
 		   
 	   }
 	   
-	      useEffect(()=>{getProductData()},[])
+	      useEffect(()=>{getProductData()},[{
+			title:"Yam",
+			price: 15,
+			category:"tuber vegetable",
+			short_description: "Tuber of yam, from west african region"
+		  }])
 	  
           return ( <div><Header as='h3'> Food items </Header>
 			       <ProductListing  ProductArray ={productsData} /></div>)

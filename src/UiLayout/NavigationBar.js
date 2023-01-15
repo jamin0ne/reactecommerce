@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-
+import ShoppingCart from "./shoppingCart.svg"
 
 
 
@@ -22,7 +22,7 @@ export default function NavigationBar (props) {
               <div class="landing-frame4">
                 <img
                   alt="shoppingcartI493"
-                  src="public/playground_assets/shoppingcarti493-k2828.svg"
+                  src= {ShoppingCart}
                   class="landing-shoppingcart"
                 />
                 <Link to= '/CartPage'><span class="landing-text08 GRH6"><span>Cart</span></span></Link>

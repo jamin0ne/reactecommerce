@@ -1,5 +1,4 @@
 import React,{useState, useContext} from 'react'
-import {Card,Image,Button,Grid} from 'semantic-ui-react'
 import  CartItemContext from '../../settingsAndConfig/contextsHandler/cartContextProvider'
 
 
@@ -26,41 +25,38 @@ function productlistingStructure(props){
 		}
 	}
 	
-	return( 
-
-	
-	<Card  centered color='teal'>
-    <Image src={props.image} alt ={props.title } size='mini' wrapped ui={false} />
-    <Card.Content>
-      <Card.Header>{props.title}</Card.Header>
-      <Card.Meta>
-        <span className='date'>Price: лв.{props.price}</span>
-      </Card.Meta>
-      <Card.Description>
-        {props.short_description}
-      </Card.Description>
-    </Card.Content>
-		
-    <Card.Content  extra>
-	 	<Grid>
-    <Grid.Column textAlign="center">
-     <Button.Group size='large'>
-    <Button onClick ={purchaseAmountHandler}>-</Button>
-    <Button.Or  text = {purchaseAmount}/>
-    <Button onClick ={purchaseAmountHandler}>+</Button>
-  </Button.Group>
-			</Grid.Column>
-		</Grid>
-		
-			<Grid>
-    <Grid.Column textAlign="center">
-    <Button onClick ={addItemHandler}>Add to cart</Button>
-  </Grid.Column>
-		</Grid>
-    </Card.Content>
-    
-  </Card>
-			
+	return( <React.Fragment>
+			<div class="marketplace-frame191">
+			<span class="marketplace-text21"><span>{props.title}</span></span>
+			<span class="marketplace-text23"><span>BGN {props.price}</span></span>
+			<span class="marketplace-text25">
+			  <span>{props.short_description}</span>
+			</span>
+		  </div>
+		  <button class="marketplace-button02">
+			<img
+			  alt="IconsaxLinearminussquare2936"
+			  src="public/playground_assets/iconsaxlinearminussquare2936-le6k.svg"
+			  class="marketplace-iconsax-linearminussquare1"
+			/>
+			<span class="marketplace-text27">{purchaseAmount}</span>
+			<img
+			  alt="IconsaxLinearaddsquare2936"
+			  src="public/playground_assets/iconsaxlinearaddsquare2936-0n4.svg"
+			  class="marketplace-iconsax-linearaddsquare1"
+			/>
+		  </button>
+		  <button class="marketplace-button03">
+			<img
+			  alt="shoppingcartI373"
+			  src="public/playground_assets/shoppingcarti373-uh3w.svg"
+			  class="marketplace-shoppingcart1"
+			/>
+			<span class="marketplace-text28">
+			  <span onClick ={addItemHandler}>Add to cart</span>
+			</span>
+		  </button>
+		  </React.Fragment>
 			
 		   )
 	
