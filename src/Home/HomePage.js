@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import AfricanMap from "./africanMap.svg";
 import BillboardImage from "./blurYamimage.png"
 
+
 export default function HomePage(){
 	
 	return  ( 
