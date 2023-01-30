@@ -4,6 +4,8 @@ import CartListing from "./cartComponent/cartListing";
 import CartSubtotal from "./cartComponent/subCartComponent/cartSubtotal";
 import ContextProviderForCartPage from "../settingsAndConfig/contextsHandler/cartContextProvider";
 import CartCheckoutForm from "./cartComponent/CartCheckoutForm";
+import CartEmpty from "./cartComponent/CartEmpty";
+
 function CartPage() {
 	const CartItemContext = useContext(ContextProviderForCartPage);
   const [HiddenCartForm, setHiddenCartForm] = useState(true);
@@ -19,18 +21,21 @@ function CartPage() {
 	  
   }
 
+
   return (
     <div>
-    <Grid padded divided  >
-      <Grid.Row centered columns={2}>
-        <Grid.Column>
-          <CartListing CartItemContext={CartItemContext} />
+    
+      
+      {CartItemContext.TotalNumberOfCartitem === 0
+        ?<CartEmpty/>
+        :<Grid padded divided  ><Grid.Row centered columns={2}><Grid.Column>
+<CartListing CartItemContext={CartItemContext}/> 
         </Grid.Column>
         <Grid.Column>
           <CartSubtotal CartItemContext={CartItemContext} SubtotalCalculation={SubtotalCalculation} CheckOutHandler={CheckOutHandler}  />
-        </Grid.Column>
-      </Grid.Row>
-    </Grid>
+        </Grid.Column></Grid.Row></Grid>}
+      
+   
     <Ref innerRef={ScrollToForm}><div style={{padding:"50px"}} hidden={HiddenCartForm} >
      <CartCheckoutForm CartItemContext={CartItemContext} SubtotalCalculation={SubtotalCalculation} />
    </div></Ref>

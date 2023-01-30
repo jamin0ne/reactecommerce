@@ -1,7 +1,6 @@
 {
   "name": "react-basic",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "firebase": "^9.4.1",
     "googleapis": "^105.0.0",
