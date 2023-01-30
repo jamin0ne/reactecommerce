@@ -1,5 +1,4 @@
 import React,{useState,useEffect} from 'react';
-import{Header} from 'semantic-ui-react';
 import { collection, getDocs } from "firebase/firestore"; 
 import ProductListing from './productPageComponents/ProductListing';
 import "./ProductPage.css"
