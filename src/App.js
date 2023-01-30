@@ -9,6 +9,7 @@ import SuccessPage from "./Others/SuccessfulPage";
 import Errorpage from "./Others/Errorpage";
 import Layout from "./UiLayout/layout";
 import "./App.css";
+import "./moteefe-font/Moteefe-lgL5q.ttf"
 
 function App() {
   const location = useLocation();

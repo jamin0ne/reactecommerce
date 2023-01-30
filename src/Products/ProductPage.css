@@ -1,0 +1,1505 @@
+.marketplace-container {
+    min-height: 100vh;
+  }
+  .marketplace-marketplace {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns:;
+    border-color: transparent;
+    background-color: var(--dl-color-gray-white);
+  }
+  .marketplace-frame21 {
+    top: 102px;
+    left: 180px;
+    width: 414px;
+    display: flex;
+    padding: 0 20px;
+    position: absolute;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+  }
+  .marketplace-text {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    font-size: 26px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 500;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 16px;
+    text-decoration: none;
+  }
+  .marketplace-filter {
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-color: transparent;
+  }
+  .marketplace-text02 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    align-self: auto;
+    text-align: left;
+    line-height: 24px;
+    margin-right: 32px;
+    margin-bottom: 0;
+  }
+  .marketplace-categories {
+    display: flex;
+    padding: 0 5px;
+    position: relative;
+    align-items: center;
+    border-color: transparent;
+  }
+  .marketplace-frame22 {
+    display: flex;
+    padding: 8px 20px;
+    position: relative;
+    align-items: center;
+    border-color: transparent;
+    margin-right: 28px;
+    border-radius: 40px;
+    justify-content: center;
+    background-color: rgba(165, 82, 23, 0.4699999988079071);
+  }
+  .marketplace-text04 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    font-size: 18px;
+    align-self: auto;
+    font-style: SemiBold;
+    text-align: center;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 24px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .marketplace-text06 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    align-self: auto;
+    text-align: left;
+    line-height: 24px;
+    margin-right: 28px;
+    margin-bottom: 0;
+  }
+  .marketplace-text08 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    align-self: auto;
+    text-align: left;
+    line-height: 24px;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .marketplace-frame43 {
+    top: 1155.921142578125px;
+    left: 180px;
+    width: 1080px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    justify-content: center;
+  }
+  .marketplace-vector4 {
+    width: 69px;
+    height: 14px;
+    position: relative;
+    margin-right: 16px;
+  }
+  .marketplace-text10 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    font-size: 16px;
+    align-self: auto;
+    font-style: italic;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 500;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 16px;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .marketplace-vector3 {
+    width: 69px;
+    height: 14px;
+    position: relative;
+  }
+  .marketplace-frame25 {
+    top: 212px;
+    left: 180px;
+    width: 1080px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+  }
+  .marketplace-frame23 {
+    width: 1080px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-bottom: 12px;
+  }
+  .marketplace-productcard {
+    width: 196px;
+    padding: 20px;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 24px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .marketplace-strawbag-sabrinatach1 {
+    width: 152px;
+    height: 152px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(139, 69, 19, 1);
+    border-style: solid;
+    border-width: 1.0133333206176758px;
+    margin-bottom: 12px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .marketplace-strawbag-sabrinatach11 {
+    top: 0.000039062499126885086px;
+    left: 8.07877254486084px;
+    width: 136px;
+    height: 152px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .marketplace-frame19 {
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-bottom: 12px;
+    flex-direction: column;
+  }
+  .marketplace-text12 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 8px;
+    text-decoration: none;
+  }
+  .marketplace-text14 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: Medium;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 500;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 8px;
+    text-decoration: none;
+  }
+  .marketplace-text16 {
+    color: var(--dl-color-default-productdesc);
+    height: auto;
+    font-size: 14px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 400;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .marketplace-button {
+    display: flex;
+    padding: 8px 24px;
+    position: relative;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    justify-content: center;
+  }
+  .marketplace-iconsax-linearminussquare {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    margin-right: 20px;
+  }
+  .marketplace-text18 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 500;
+    line-height: 26px;
+    font-stretch: normal;
+    margin-right: 20px;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .marketplace-iconsax-linearaddsquare {
+    width: 24px;
+    height: 24px;
+    position: relative;
+  }
+  .marketplace-button01 {
+    width: 152px;
+    display: flex;
+    padding: 12px 24px;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 8px;
+    justify-content: center;
+    background-color: var(--dl-color-default-brandcolor);
+  }
+  .marketplace-shoppingcart {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-right: 16px;
+  }
+  .marketplace-text19 {
+    color: var(--dl-color-gray-white);
+    height: auto;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .marketplace-productcard1 {
+    width: 196px;
+    display: flex;
+    padding: 20px;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 24px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .marketplace-frame27 {
+    display: flex;
+    padding: 4px;
+    position: relative;
+    align-items: center;
+    border-color: rgba(139, 69, 19, 1);
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 12px;
+    justify-content: center;
+  }
+  .marketplace-pexels-photoby-pixabay {
+    width: 144px;
+    height: 144px;
+    position: relative;
+    border-color: transparent;
+  }
+  .marketplace-frame191 {
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-bottom: 12px;
+    flex-direction: column;
+  }
+  .marketplace-text21 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 8px;
+    text-decoration: none;
+  }
+  .marketplace-text23 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: Medium;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 500;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 8px;
+    text-decoration: none;
+  }
+  .marketplace-text25 {
+    color: var(--dl-color-default-productdesc);
+    height: auto;
+    font-size: 14px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 400;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .marketplace-button02 {
+    display: flex;
+    padding: 8px 24px;
+    position: relative;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    justify-content: center;
+  }
+  .marketplace-iconsax-linearminussquare1 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    margin-right: 20px;
+  }
+  .marketplace-text27 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 500;
+    line-height: 26px;
+    font-stretch: normal;
+    margin-right: 20px;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .marketplace-iconsax-linearaddsquare1 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+  }
+  .marketplace-button03 {
+    width: 152px;
+    display: flex;
+    padding: 12px 24px;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 8px;
+    justify-content: center;
+    background-color: var(--dl-color-default-brandcolor);
+  }
+  .marketplace-shoppingcart1 {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-right: 16px;
+  }
+  .marketplace-text28 {
+    color: var(--dl-color-gray-white);
+    height: auto;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .marketplace-productcard2 {
+    width: 196px;
+    display: flex;
+    padding: 20px;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 24px;
+    flex-direction: column;
+  }
+  .marketplace-palm-oil {
+    display: flex;
+    padding: 4px;
+    position: relative;
+    align-items: center;
+    border-color: rgba(139, 69, 19, 1);
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 12px;
+    justify-content: center;
+  }
+  .marketplace-frame42 {
+    width: 144px;
+    height: 144px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .marketplace-group4 {
+    top: 0px;
+    left: -6px;
+    width: 142.15501403808594px;
+    height: 144px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .marketplace-group3 {
+    top: 0px;
+    left: 89.77001953125px;
+    width: 52.38499450683594px;
+    height: 144px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .marketplace-palmoil2 {
+    top: 0px;
+    left: 0px;
+    width: 52px;
+    height: 144px;
+    position: absolute;
+  }
+  .marketplace-rectangle9 {
+    top: 0.00003417968764551915px;
+    left: 41.34430694580078px;
+    width: 11px;
+    height: 27px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .marketplace-group2 {
+    top: 0px;
+    left: 46.385009765625px;
+    width: 52.38499450683594px;
+    height: 144px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .marketplace-palmoil21 {
+    top: 0px;
+    left: 0px;
+    width: 52px;
+    height: 144px;
+    position: absolute;
+  }
+  .marketplace-rectangle91 {
+    top: 0.00003417968764551915px;
+    left: 41.344268798828125px;
+    width: 11px;
+    height: 27px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .marketplace-group1 {
+    top: 0px;
+    left: 0px;
+    width: 52.38499450683594px;
+    height: 144px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .marketplace-palmoil22 {
+    top: 0px;
+    left: 0px;
+    width: 52px;
+    height: 144px;
+    position: absolute;
+  }
+  .marketplace-rectangle92 {
+    top: 0.00003417968764551915px;
+    left: 41.34421920776367px;
+    width: 11px;
+    height: 27px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .marketplace-frame192 {
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-bottom: 12px;
+    flex-direction: column;
+  }
+  .marketplace-text30 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 8px;
+    text-decoration: none;
+  }
+  .marketplace-text32 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: Medium;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 500;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 8px;
+    text-decoration: none;
+  }
+  .marketplace-text34 {
+    color: var(--dl-color-default-productdesc);
+    height: auto;
+    font-size: 14px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 400;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .marketplace-button04 {
+    display: flex;
+    padding: 8px 24px;
+    position: relative;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    justify-content: center;
+  }
+  .marketplace-iconsax-linearminussquare2 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    margin-right: 20px;
+  }
+  .marketplace-text36 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 500;
+    line-height: 26px;
+    font-stretch: normal;
+    margin-right: 20px;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .marketplace-iconsax-linearaddsquare2 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+  }
+  .marketplace-button05 {
+    width: 152px;
+    display: flex;
+    padding: 12px 24px;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 8px;
+    justify-content: center;
+    background-color: var(--dl-color-default-brandcolor);
+  }
+  .marketplace-shoppingcart2 {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-right: 16px;
+  }
+  .marketplace-text37 {
+    color: var(--dl-color-gray-white);
+    height: auto;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .marketplace-productcard3 {
+    width: 196px;
+    display: flex;
+    padding: 20px;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 24px;
+    flex-direction: column;
+  }
+  .marketplace-frame28 {
+    display: flex;
+    padding: 4px;
+    position: relative;
+    align-items: center;
+    border-color: rgba(139, 69, 19, 1);
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 12px;
+    justify-content: center;
+  }
+  .marketplace-istockphotoegusi {
+    width: 144px;
+    height: 144px;
+    position: relative;
+    border-color: transparent;
+  }
+  .marketplace-frame193 {
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-bottom: 12px;
+    flex-direction: column;
+  }
+  .marketplace-text39 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 8px;
+    text-decoration: none;
+  }
+  .marketplace-text41 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: Medium;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 500;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 8px;
+    text-decoration: none;
+  }
+  .marketplace-text43 {
+    color: var(--dl-color-default-productdesc);
+    height: auto;
+    font-size: 14px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 400;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .marketplace-button06 {
+    display: flex;
+    padding: 8px 24px;
+    position: relative;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    justify-content: center;
+  }
+  .marketplace-iconsax-linearminussquare3 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    margin-right: 20px;
+  }
+  .marketplace-text45 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 500;
+    line-height: 26px;
+    font-stretch: normal;
+    margin-right: 20px;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .marketplace-iconsax-linearaddsquare3 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+  }
+  .marketplace-button07 {
+    width: 152px;
+    display: flex;
+    padding: 12px 24px;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 8px;
+    justify-content: center;
+    background-color: var(--dl-color-default-brandcolor);
+  }
+  .marketplace-shoppingcart3 {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-right: 16px;
+  }
+  .marketplace-text46 {
+    color: var(--dl-color-gray-white);
+    height: auto;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .marketplace-productcard4 {
+    width: 196px;
+    display: flex;
+    padding: 20px;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    flex-direction: column;
+  }
+  .marketplace-frame29 {
+    display: flex;
+    padding: 4px;
+    position: relative;
+    align-items: center;
+    border-color: rgba(139, 69, 19, 1);
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 12px;
+    justify-content: center;
+  }
+  .marketplace-ogbono {
+    width: 144px;
+    height: 144px;
+    position: relative;
+    border-color: transparent;
+  }
+  .marketplace-frame194 {
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-bottom: 12px;
+    flex-direction: column;
+  }
+  .marketplace-text48 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 8px;
+    text-decoration: none;
+  }
+  .marketplace-text50 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: Medium;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 500;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 8px;
+    text-decoration: none;
+  }
+  .marketplace-text52 {
+    color: var(--dl-color-default-productdesc);
+    height: auto;
+    font-size: 14px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 400;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .marketplace-button08 {
+    display: flex;
+    padding: 8px 24px;
+    position: relative;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    justify-content: center;
+  }
+  .marketplace-iconsax-linearminussquare4 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    margin-right: 20px;
+  }
+  .marketplace-text54 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 500;
+    line-height: 26px;
+    font-stretch: normal;
+    margin-right: 20px;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .marketplace-iconsax-linearaddsquare4 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+  }
+  .marketplace-button09 {
+    width: 152px;
+    display: flex;
+    padding: 12px 24px;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 8px;
+    justify-content: center;
+    background-color: var(--dl-color-default-brandcolor);
+  }
+  .marketplace-shoppingcart4 {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-right: 16px;
+  }
+  .marketplace-text55 {
+    color: var(--dl-color-gray-white);
+    height: auto;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .marketplace-frame251 {
+    width: 1080px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .marketplace-productcard5 {
+    width: 196px;
+    display: flex;
+    padding: 20px;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 24px;
+    flex-direction: column;
+  }
+  .marketplace-frame291 {
+    display: flex;
+    padding: 4px;
+    position: relative;
+    align-items: center;
+    border-color: rgba(139, 69, 19, 1);
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 12px;
+    justify-content: center;
+  }
+  .marketplace-ogbono1 {
+    width: 144px;
+    height: 144px;
+    position: relative;
+    border-color: transparent;
+  }
+  .marketplace-frame195 {
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-bottom: 12px;
+    flex-direction: column;
+  }
+  .marketplace-text57 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 8px;
+    text-decoration: none;
+  }
+  .marketplace-text59 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: Medium;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 500;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 8px;
+    text-decoration: none;
+  }
+  .marketplace-text61 {
+    color: var(--dl-color-default-productdesc);
+    height: auto;
+    font-size: 14px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 400;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .marketplace-button10 {
+    display: flex;
+    padding: 8px 24px;
+    position: relative;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    justify-content: center;
+  }
+  .marketplace-iconsax-linearminussquare5 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    margin-right: 20px;
+  }
+  .marketplace-text63 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 500;
+    line-height: 26px;
+    font-stretch: normal;
+    margin-right: 20px;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .marketplace-iconsax-linearaddsquare5 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+  }
+  .marketplace-button11 {
+    width: 152px;
+    display: flex;
+    padding: 12px 24px;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 8px;
+    justify-content: center;
+    background-color: var(--dl-color-default-brandcolor);
+  }
+  .marketplace-shoppingcart5 {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-right: 16px;
+  }
+  .marketplace-text64 {
+    color: var(--dl-color-gray-white);
+    height: auto;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .marketplace-productcard6 {
+    display: flex;
+    padding: 20px;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+  }
+  .marketplace-frame4 {
+    display: flex;
+    padding: 4px;
+    position: relative;
+    align-items: center;
+    border-color: rgba(139, 69, 19, 1);
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 12px;
+    justify-content: center;
+  }
+  .marketplace-yam {
+    width: 144px;
+    height: 144px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-color: rgba(254, 254, 254, 1);
+  }
+  .marketplace-image5 {
+    top: 25.100927352905273px;
+    left: -0.000004882812390860636px;
+    width: 144px;
+    height: 94px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .marketplace-frame196 {
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-bottom: 12px;
+    flex-direction: column;
+  }
+  .marketplace-text66 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 8px;
+    text-decoration: none;
+  }
+  .marketplace-text68 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: Medium;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 500;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 8px;
+    text-decoration: none;
+  }
+  .marketplace-text70 {
+    color: var(--dl-color-default-productdesc);
+    height: auto;
+    font-size: 14px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 400;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .marketplace-button12 {
+    display: flex;
+    padding: 8px 24px;
+    position: relative;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    justify-content: center;
+  }
+  .marketplace-iconsax-linearminussquare6 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    margin-right: 20px;
+  }
+  .marketplace-text75 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 500;
+    line-height: 26px;
+    font-stretch: normal;
+    margin-right: 20px;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .marketplace-iconsax-linearaddsquare6 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+  }
+  .marketplace-button13 {
+    width: 152px;
+    display: flex;
+    padding: 12px 24px;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 8px;
+    justify-content: center;
+    background-color: var(--dl-color-default-brandcolor);
+  }
+  .marketplace-shoppingcart6 {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-right: 16px;
+  }
+  .marketplace-text76 {
+    color: var(--dl-color-gray-white);
+    height: auto;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .marketplace-header {
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    display: flex;
+    padding: 0 70px;
+    overflow: hidden;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(139, 69, 19, 1);
+    border-style: solid;
+    border-width: Symbol(figma.mixed)px;
+    justify-content: space-between;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 2px;
+  }
+  .marketplace-name {
+    display: flex;
+    padding: 8px;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+  }
+  .marketplace-text78 {
+    color: var(--dl-color-default-logocolor);
+    height: auto;
+    font-size: 32px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Moteefe;
+    font-weight: 400;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .marketplace-frame14 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-color: transparent;
+  }
+  .marketplace-frame3 {
+    display: flex;
+    padding: 0 8px;
+    position: relative;
+    align-items: center;
+    border-color: transparent;
+    margin-right: 48px;
+  }
+  .marketplace-text80 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    align-self: auto;
+    text-align: left;
+    line-height: 24px;
+    margin-right: 40px;
+    margin-bottom: 0;
+  }
+  .marketplace-frame9 {
+    display: flex;
+    padding: 8px 16px;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-right: 40px;
+    border-radius: 12px;
+    background-color: var(--dl-color-default-brandcolor);
+  }
+  .marketplace-text82 {
+    color: var(--dl-color-gray-white);
+    height: auto;
+    font-size: 18px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 24px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .marketplace-text84 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    align-self: auto;
+    text-align: left;
+    line-height: 24px;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .marketplace-frame41 {
+    display: flex;
+    padding: 4px 8px;
+    position: relative;
+    align-items: center;
+    border-color: transparent;
+  }
+  .marketplace-shoppingcart7 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    margin-right: 24px;
+  }
+  .marketplace-text86 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    align-self: auto;
+    text-align: left;
+    line-height: 24px;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  

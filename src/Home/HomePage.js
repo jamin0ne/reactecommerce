@@ -1,16 +1,15 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import AfricanMap from "./africanMap.svg"
+import AfricanMap from "./africanMap.svg";
+import BillboardImage from "./blurYamimage.png"
 
 export default function HomePage(){
-	
-	const Image =''
 	
 	return  ( 
 		<React.Fragment>
 		<img
 		alt="image62310"
-		src={Image}
+		src={BillboardImage}
 		class="landing-image6"
 	  />
 	  <div class="landing-frame7">
@@ -24,7 +23,7 @@ export default function HomePage(){
 		  </span>
 		</div>
 		<div class="landing-frame71">
-		  <Link to="/Productpage"><span class="landing-text16"><span>View Products</span></span></Link>
+		  <Link to="/ProductsPage"><span class="landing-text16"><span>View Products</span></span></Link>
 		</div>
 	  </div>
 	  <img
@@ -92,9 +91,7 @@ export default function HomePage(){
 			</span>
 		  </div>
 		  <div class="landing-frame72">
-			<span class="landing-text46">
-			  <span>Check out our products</span>
-			</span>
+		  <Link to="/ProductsPage"><span class="landing-text46"><span>Check out our products</span></span></Link>
 			 </div>
 			 </div>
 			 </div>

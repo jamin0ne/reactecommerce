@@ -1,6 +1,9 @@
 import React,{useState, useContext} from 'react'
+import ShoppingCart from "../../UiLayout/shoppingCart.svg"
 import  CartItemContext from '../../settingsAndConfig/contextsHandler/cartContextProvider'
-
+import MinusSVG from "../MinusSquare.svg"
+import AddSVG from "../AddSquare.svg"
+import { List } from 'semantic-ui-react'
 
 function productlistingStructure(props){
 	 const ContextinCartItem = useContext(CartItemContext);
@@ -16,47 +19,58 @@ function productlistingStructure(props){
 		  })
 	ContextinCartItem.MessageHandler('Added to cart')
 	}
-	function purchaseAmountHandler(event,buttonInfo){
-	       const buttonString = buttonInfo.children
-		if(buttonString === '-'){
-			setpurchaseAmount(Math.max(1,purchaseAmount - 1))
-		}else if(buttonString === '+'){
+	function AddPieceHandler(){
 			setpurchaseAmount(Math.min(5,purchaseAmount + 1))
-		}
 	}
+  function SubtractPieceHandler(){
+		setpurchaseAmount(Math.max(1,purchaseAmount - 1))
+		}
 	
-	return( <React.Fragment>
-			<div class="marketplace-frame191">
-			<span class="marketplace-text21"><span>{props.title}</span></span>
-			<span class="marketplace-text23"><span>BGN {props.price}</span></span>
-			<span class="marketplace-text25">
-			  <span>{props.short_description}</span>
-			</span>
-		  </div>
-		  <button class="marketplace-button02">
-			<img
-			  alt="IconsaxLinearminussquare2936"
-			  src="public/playground_assets/iconsaxlinearminussquare2936-le6k.svg"
-			  class="marketplace-iconsax-linearminussquare1"
-			/>
-			<span class="marketplace-text27">{purchaseAmount}</span>
-			<img
-			  alt="IconsaxLinearaddsquare2936"
-			  src="public/playground_assets/iconsaxlinearaddsquare2936-0n4.svg"
-			  class="marketplace-iconsax-linearaddsquare1"
-			/>
-		  </button>
-		  <button class="marketplace-button03" onClick={purchaseAmountHandler}>
-			<img
-			  alt="shoppingcartI373"
-			  src="public/playground_assets/shoppingcarti373-uh3w.svg"
-			  class="marketplace-shoppingcart1"
-			/>
-			<span class="marketplace-text28">
-			  <span onClick ={addItemHandler}>Add to cart</span>
-			</span>
-		  </button>
-		  </React.Fragment>
+	return(
+    <List.Item>
+			<div class="marketplace-productcard" id={props.id}>
+                <div class="marketplace-strawbag-sabrinatach1">
+                  <img
+                    alt="StrawbagSabrinatach13017"
+                    src={props.image}
+                    class="marketplace-strawbag-sabrinatach11"
+                  />
+                </div>
+                <div class="marketplace-frame19">
+                  <span class="marketplace-text12">
+                    <span></span>
+                  </span>
+                  <span class="marketplace-text14"><span>{props.price}BGN</span></span>
+                  <span class="marketplace-text16">
+                    <span>{props.short_description}</span>
+                  </span>
+                </div>
+                <button class="marketplace-button">
+                  <img onClick={SubtractPieceHandler}
+                    alt="IconsaxLinearminussquare2939"
+                    src={MinusSVG}
+                    class="marketplace-iconsax-linearminussquare"
+                  />
+                  <span class="marketplace-text18">{purchaseAmount}</span>
+                  <img onClick={AddPieceHandler}
+                    alt="IconsaxLinearaddsquare2939"
+                    src={AddSVG}
+                    class="marketplace-iconsax-linearaddsquare"
+                  />
+                </button>
+                <button class="marketplace-button01" onClick={addItemHandler}>
+                  <img
+                    alt="shoppingcartI293"
+                    src={ShoppingCart}
+                    class="marketplace-shoppingcart"
+                  />
+                  <span class="marketplace-text19">
+                    <span>Add to cart</span>
+                  </span>
+                </button>
+              </div>
+              </List.Item>
+		  
 			
 		   )
 	
