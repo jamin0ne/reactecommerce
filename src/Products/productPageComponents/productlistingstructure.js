@@ -17,7 +17,7 @@ function productlistingStructure(props){
 			  purchaseAmount: purchaseAmount,
 			  price: props.price 
 		  })
-	ContextinCartItem.MessageHandler('Added to cart')
+	ContextinCartItem.MessageHandler(props.title)
 	}
 	function AddPieceHandler(){
 			setpurchaseAmount(Math.min(5,purchaseAmount + 1))

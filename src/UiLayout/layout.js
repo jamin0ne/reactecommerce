@@ -9,9 +9,9 @@ export default function Layout(props){
 		<div class="landing-container">
         <div class="landing-landing">
 			<NavigationBar />
-			
-			<div style={{paddingTop:"5%"}}>
 			<Messageoutput/>
+			<div style={{paddingTop:"5%"}}>
+			
 				{props.children}
 			</div>
 			

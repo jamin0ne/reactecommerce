@@ -24,7 +24,7 @@
     flex-shrink: 0;
     border-color: rgba(139, 69, 19, 1);
     border-style: solid;
-    border-width: Symbol(figma.mixed)px;
+    border-width: Symbol;
     justify-content: space-between;
     border-top-width: 0px;
     border-left-width: 0px;
@@ -133,3 +133,38 @@
     margin-right: 0;
     margin-bottom: 0;
   }
+  .cart-overlay-addedtocartoverlay {
+    top: 56px;
+    left: 89%;
+    width: 70%;
+    height: 56px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .cart-overlay-frame26 {
+    top: 0px;
+    left: 0px;
+    width: 250px;
+    display: flex;
+    padding: 16px 24px;
+    position: absolute;
+    align-items: flex-start;
+    border-color: rgba(139, 69, 19, 1);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 0 0 12px 12px;
+    background-color: var(--dl-color-gray-white);
+  }
+  .cart-overlay-text88 {
+    color: salmon;
+    height: auto;
+    align-self: auto;
+    text-align: left;
+    line-height: 24px;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  

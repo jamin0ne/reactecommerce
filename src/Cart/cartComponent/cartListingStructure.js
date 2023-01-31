@@ -1,5 +1,7 @@
 import React from 'react'
-import {List,Image,Button,Segment,Header} from 'semantic-ui-react'
+import RemoveButtonImg from "../trash2i492-k6p.svg"
+import MinusSVG from "../../Products/MinusSquare.svg"
+import AddSVG from "../../Products/AddSquare.svg"
 
 
 function CartListingStructure(props){
@@ -29,29 +31,42 @@ function CartListingStructure(props){
 		}else{ props.RemoveItemFromCart(props.Product.id) }
 	}
 	return(
-		
-	  <Segment>
-			<List.Item>
-      <List.Content floated='right'>
-		  <div>
-		  <Button circular floated='right' size='mini'icon='cancel' onClick={RemoveItemFromCart}></Button>
-		  </div>
-   
-		  </List.Content>
-      <Image size='mini' src={props.Product.image} />
-      <List.Content>
-		  <Header>{props.Product.title}</Header>
-		 <div>  <span style={{fontWeight: "bold"}} >Price: </span>лв.{props.Product.totalPrice}</div>
-		  
-		   <div> <Button.Group size='small'>
-    <Button onClick={reduceItemAmountInCart} >-</Button>
-    <Button.Or  text = {props.Product.purchaseAmount}/>
-    <Button onClick={AddItemToCart} >+</Button>
-		  </Button.Group>
-     </div>
-		  </List.Content>
-    </List.Item>
-			</Segment>)}
+		<div class="cart-productcard">
+          <div class="cart-strawbag-sabrinatach1">
+            <img
+              alt="StrawbagSabrinatach14921"
+              src={props.Product.image}
+              class="cart-strawbag-sabrinatach11"
+            />
+          </div>
+          <div class="cart-frame19">
+            <span class="cart-text02"><span>{props.Product.title}</span></span>
+            <button class="cart-button">
+              <img
+                alt="IconsaxLinearminussquare8312"
+                src={MinusSVG}
+                class="cart-iconsax-linearminussquare" onClick={reduceItemAmountInCart}
+              />
+              <span class="cart-text04">{props.Product.purchaseAmount}</span>
+              <img
+                alt="IconsaxLinearaddsquare8312"
+                src={AddSVG}
+                class="cart-iconsax-linearaddsquare" onClick={AddItemToCart}
+              />
+            </button>
+          </div>
+          <div class="cart-frame38">
+            <button class="cart-button1" onClick={RemoveItemFromCart}>
+              <img
+                alt="trash2I492"
+                src={RemoveButtonImg}
+                class="cart-trash2"
+              />
+            </button>
+            <span class="cart-text05 GRH7"><span>BGN{props.Product.totalPrice}</span></span>
+          </div>
+        </div>
+)}
 			
  
 

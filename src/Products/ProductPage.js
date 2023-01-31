@@ -14,7 +14,7 @@ import {Db} from '../settingsAndConfig/DBconfig/FbConfig'
 		category:"tuber vegetable",
 		short_description: "Tuber of yam, from west african region"
 	  },{
-		title:"Yam",
+		title:"Potatoes",
 		image:"https://cdn11.bigcommerce.com/s-58uvul1jf2/images/stencil/1280x1280/products/362/832/Fresh_Yam_2__47180.1619302542.1280.1280__50156.1656418056.jpg?c=1",
 		price: 15,
 		category:"tuber vegetable",

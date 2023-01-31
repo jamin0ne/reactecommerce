@@ -1,12 +1,19 @@
 import React, {useContext} from "react";
 import  CartItemContext from "../settingsAndConfig/contextsHandler/cartContextProvider"
 
-function messageoutput(props) {
+function messageoutput() {
     const ContextinCartItem = useContext(CartItemContext);
 
-return(
-    <span style={{ display: "flex", zIndex:9999,
-        justifyContent: "center",color:"red",fontWeight:"700",position:"fixed", width: "100%", fontSize: "1.5rem"}}>{ContextinCartItem.alert}</span>
+return(<React.Fragment>{ ContextinCartItem.alert === ""
+          ? <div></div>
+         :<div class="cart-overlay-addedtocartoverlay">
+        <div class="cart-overlay-frame26">
+          <span class="cart-overlay-text88 GRH6">
+            <span>'{ContextinCartItem.alert}' added to cart</span>
+          </span>
+        </div>
+        </div>
+    }</React.Fragment>
 )
 
 }
