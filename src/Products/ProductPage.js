@@ -21,7 +21,7 @@ import {Db} from '../settingsAndConfig/DBconfig/FbConfig'
 		short_description: "Tuber of yam, from west african region"
 	  },]);
 	   
-  /*const  getProductData = async()=>{
+  const  getProductData = async()=>{
 		     const DataArrangeMentArray = []
 		const getproduct = await getDocs(collection(Db, "Products"));
 		   getproduct.forEach(product=>{
@@ -34,7 +34,7 @@ import {Db} from '../settingsAndConfig/DBconfig/FbConfig'
 		   console.log(DataArrangeMentArray)
 	   }
 	   
-	      useEffect(()=>{getProductData()})*/
+	      useEffect(()=>{getProductData()})
 	  
           return ( <div class="marketplace-container">
 			<span class="marketplace-text"><span>Products</span></span>
