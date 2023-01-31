@@ -24,9 +24,7 @@ function CartPage() {
 
   return (
     <div>
-    
-      
-      {CartItemContext.TotalNumberOfCartitem === 0
+        {CartItemContext.TotalNumberOfCartitem === 0
         ?<CartEmpty/>
         :<Grid padded divided  ><Grid.Row centered columns={2}><Grid.Column>
 <CartListing CartItemContext={CartItemContext}/> 

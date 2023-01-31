@@ -1,5 +1,7 @@
 import React from "react";
 import EmptyCartImage from "../EmptyCartImage.png"
+import { Link } from "react-router-dom";
+import "../Cart.css"
 
 function CartEmpty () {
 
@@ -15,9 +17,9 @@ function CartEmpty () {
           src={EmptyCartImage}
           class="cart-empty-blackandwhitewomanwalkingwithashoppingcart"/>
               <div class="cart-empty-frame8">
-                  <span class="cart-empty-text14">
+              <Link to="/ProductsPage"><span class="cart-empty-text14">
                       <span>Lets go shopping</span>
-                  </span>
+                  </span></Link>
               </div>
       </div>
 

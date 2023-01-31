@@ -1,0 +1,65 @@
+.cart-empty-cartempty1 {
+    top: 114px;
+    left: 530px;
+    width: 380px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    border-color: transparent;
+    flex-direction: column;
+  }
+  .cart-empty-frame21 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-bottom: 0px;
+    flex-direction: column;
+  }
+  .cart-empty-text12 {
+    color: var(--dl-color-default-textcolor);
+    height: auto;
+    font-size: 26px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 500;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .cart-empty-blackandwhitewomanwalkingwithashoppingcart {
+    width: 380px;
+    height: 380px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0px;
+  }
+  .cart-empty-frame8 {
+    display: flex;
+    padding: 12px 24px;
+    position: relative;
+    align-items: center;
+    border-color: transparent;
+    border-radius: 8px;
+    justify-content: center;
+    background-color: var(--dl-color-default-brandcolor);
+  }
+  .cart-empty-text14 {
+    color: var(--dl-color-gray-white);
+    height: auto;
+    font-size: 18px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }

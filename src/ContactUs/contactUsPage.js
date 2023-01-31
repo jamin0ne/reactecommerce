@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import BillBoardImage from "./ContactusBillboardImage.png"
 import "./contactUs.css"
 export default function AboutUsPage() {
   return (
     <div>
       <img
             alt="image64926"
-            src="public/playground_assets/image64926-p83s-200h.png"
+            src={BillBoardImage}
             class="contact-us-image6"
           />
           <div class="contact-us-frame19">
