@@ -18,7 +18,7 @@ function App() {
     <Layout location={location}>
       <Switch>
         <Route path="/" exact>
-          <HomePage />
+         <span><HomePage /></span>
         </Route>
         <Route path="/AboutUsPage">
           <AboutUsPage />

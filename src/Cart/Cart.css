@@ -97,7 +97,7 @@
     width: 770px;
     display: flex;
     padding: 20px 0;
-    position: absolute;
+    position: relative;
     align-self: stretch;
     align-items: center;
     flex-shrink: 0;
@@ -451,3 +451,4 @@
     margin-bottom: 0;
     text-decoration: none;
   }
+

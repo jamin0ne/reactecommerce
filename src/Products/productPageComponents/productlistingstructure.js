@@ -38,7 +38,7 @@ function productlistingStructure(props){
                 </div>
                 <div class="marketplace-frame19">
                   <span class="marketplace-text12">
-                    <span></span>
+                    <span>{props.title}</span>
                   </span>
                   <span class="marketplace-text14"><span>{props.price}BGN</span></span>
                   <span class="marketplace-text16">

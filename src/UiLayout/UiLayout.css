@@ -102,15 +102,6 @@
     margin-right: 40px;
     margin-bottom: 0;
   }
-  .landing-text06 {
-    color: var(--dl-color-default-textcolor);
-    height: auto;
-    align-self: auto;
-    text-align: left;
-    line-height: 24px;
-    margin-right: 0;
-    margin-bottom: 0;
-  }
   .landing-frame4 {
     display: flex;
     padding: 4px 8px;
@@ -124,15 +115,7 @@
     position: relative;
     margin-right: 24px;
   }
-  .landing-text08 {
-    color: var(--dl-color-default-textcolor);
-    height: auto;
-    align-self: auto;
-    text-align: left;
-    line-height: 24px;
-    margin-right: 0;
-    margin-bottom: 0;
-  }
+ 
   .cart-overlay-addedtocartoverlay {
     top: 56px;
     left: 89%;
@@ -168,3 +151,5 @@
     margin-bottom: 0;
   }
   
+  
+   

@@ -68,9 +68,8 @@ function SendToOwner(formInputs){
         <Ref innerRef={PhoneRef}><Form.Input
           fluid
           label="Phone"
-          type="number"
-          placeholder="000-000-0000"
-          
+          pattern="[0-9]+"
+          placeholder="000-000-0000"    
           required
         /></Ref>
         <Ref innerRef={AddressRef}><Form.Input fluid label="Address" placeholder="Address" required /></Ref>

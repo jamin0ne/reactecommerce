@@ -28,7 +28,7 @@ function CartPage() {
     <div>
         {CartItemContext.TotalNumberOfCartitem === 0
         ?<CartEmpty/>
-        :<div class="cart-cart">
+        :<div class="cart-cart"hidden={!HiddenCartForm}>
         <img
           alt="Rectangle104920"
           src={SubtotalBorderImage}

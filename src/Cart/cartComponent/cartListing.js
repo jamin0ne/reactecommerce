@@ -6,14 +6,16 @@ function CartListing (props) {
   const CartItemContext = props.CartItemContext
 
   return (
-    <List divided size="massive" verticalAlign="middle">
+    <List  verticalAlign="middle">
       {CartItemContext.CartItems.map((Product) => (
-        <CartListingStructure
+       <List.Item>
+       <CartListingStructure
           key={Product.id}
           Product={Product}
           AddItemToCart={CartItemContext.AddItemToCart}
           RemoveItemFromCart={CartItemContext.RemoveItemFromCart}
         />
+      </List.Item>
       ))}
     </List>
   );
