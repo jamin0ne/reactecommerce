@@ -27,7 +27,7 @@
     left: 0px;
     width: 99%;
     display: flex;
-    padding: 0 70px;
+    padding: 0 20px;
     overflow: hidden;
     position: relative;
     align-items: center;
@@ -77,6 +77,7 @@
     align-items: center;
     border-color: transparent;
     margin-right: 48px;
+    float: left;
   }
   .landing-frame8 {
     display: flex;
@@ -177,6 +178,7 @@
       align-items: "";
       border-color: "";
       margin-right: 0px;
+      float:none;
     }
     .landing-frame8 {
       display: block;
