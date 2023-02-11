@@ -1,7 +1,3 @@
-.marketplace-container {
-  min-height: 100vh;
-}
-
 .marketplace-text {
   color: var(--dl-color-default-textcolor);
   height: auto;

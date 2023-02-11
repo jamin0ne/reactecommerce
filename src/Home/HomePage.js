@@ -8,12 +8,12 @@ import "./Home.css"
 export default function HomePage(){
 	
 	return  ( 
-		<React.Fragment>
-		<img
+		<div>
+		<span><img
 		alt="image62310"
 		src={BillboardImage}
 		class="landing-image6"
-	  />
+	  /></span>
 	  <div class="landing-frame7">
 		<div class="landing-frame5">
 		  <span class="landing-text10"><span>Welcome to</span></span>
@@ -97,6 +97,6 @@ export default function HomePage(){
 			 </div>
 			 </div>
 			 </div>
-			 </React.Fragment>
+			 </div>
 	)
 }

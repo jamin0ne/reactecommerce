@@ -38,7 +38,7 @@ import {Db} from '../settingsAndConfig/DBconfig/FbConfig'
 	   
 	      useEffect(()=>{getProductData()})
 	  */
-          return ( <div class="marketplace-container">
+          return ( <div>
 			<span class="marketplace-text"><span>Products</span></span>
 			       <ProductListing  ProductArray ={productsData} /></div>)
 	 
