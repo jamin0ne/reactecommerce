@@ -1,6 +1,6 @@
 .frame7{
   margin-top: 142px;
-  margin-left: 10%;
+  margin-left: 8%;
 }
 
   .landing-text10 {
@@ -35,14 +35,12 @@
   }
   .landing-text14 {
     color: var(--dl-color-default-subheading);
-
-    font-size: 26px;
+    font-size: 24px;
     font-style: Regular;
     font-family: Roboto;
     font-weight: 400;
-    
-    
     text-decoration: none;
+    
   }
   
   .landing-text16 {
@@ -64,6 +62,6 @@
   }
 
   .landing-africamapsvgrepocom4 {
-    margin-top: 130px;
-    margin-left: 10%;
+    margin-top: 125px;
+    margin-left: 15%;
   }
