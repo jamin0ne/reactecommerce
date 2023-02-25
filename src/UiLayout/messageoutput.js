@@ -1,14 +1,13 @@
-import React, {useContext} from "react";
+import React from "react";
 import { Alert, Navbar } from "react-bootstrap";
-import  CartItemContext from "../settingsAndConfig/contextsHandler/cartContextProvider"
 
-function messageoutput() {
-    const ContextinCartItem = useContext(CartItemContext);
+function messageoutput(props) {
+    
 
 return(
     <div>
-    {ContextinCartItem.alert ==="" ?<div></div> :<Navbar expand="lg" fixed="bottom"><Alert variant="secondary">
-    {ContextinCartItem.alert}
+    {props.Alert ==="" ?<div></div> :<Navbar expand="lg" fixed="bottom"><Alert variant="secondary">
+    {props.Alert}
    </Alert></Navbar>}
    </div>
 )

@@ -63,3 +63,32 @@
     line-height: 24px;
     display: flex;
   }
+  .landing-header {
+    border-color: rgba(139, 69, 19, 1);
+    border-style: solid;
+    border-width: Symbol;
+    justify-content: space-between;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 2px;
+  }
+  .BadgeSelcected {
+    color: var(--dl-color-gray-white);
+    font-size: 10px;
+    font-family: Lato;
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+    padding: 0 0 8px;
+    background-color: var(--dl-color-default-brandcolor);
+  }
+  .BageNotSelected {
+    color: var(--dl-color-default-textcolor);
+    font-size: 10px;
+    font-family: Lato;
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+    padding:  0 0 8px;
+  }
